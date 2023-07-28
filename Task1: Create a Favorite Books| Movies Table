@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Books and Movies</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color:rgb(161, 151, 96);
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #9363d7;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e8d1d1;
+        }
+        body{
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Favorite Books and Movies</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author/Director</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Who Will Cry<br>When You Die</td>
+                    <td>Robin Sharma</td>
+                    <td>Life Lessons from Monk Who sold His Ferrari</td>
+                </tr>
+                <tr>
+                    <td>Venom</td>
+                    <td>Andy Serkis, Ruben Fleischer</td>
+                    <td>Science Fiction</td>
+                </tr>
+                <tr>
+                    <td>Pride and Prejudice</td>
+                    <td>Jane Austen</td>
+                    <td>Romance</td>
+                </tr>
+                <tr>
+                    <td>Eega</td>
+                    <td>Rajamoulit</td>
+                    <td>Drama, Science Friction</td>
+                </tr>
+                <tr>
+                    <td>Harry Potter and the Philosopher's Stone</td>
+                    <td>J.K. Rowling</td>
+                    <td>Fantasy</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
